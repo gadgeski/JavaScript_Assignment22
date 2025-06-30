@@ -163,32 +163,32 @@ HTML 要素を操作し、ユーザーの入力に応じてゲームの状態を
 
 1. 要素の取得と初期設定
 
-   const wordDisplay = document.getElementById("wordDisplay");
+'''const wordDisplay = document.getElementById("wordDisplay");
 
-   const textInput = document.getElementById("textInput");
+const textInput = document.getElementById("textInput");
 
-   const startButton = document.getElementById("startButton");
+const startButton = document.getElementById("startButton");
 
-   const feedbackDisplay = document.getElementById("feedback");
+const feedbackDisplay = document.getElementById("feedback");
 
-   const scoreDisplay = document.getElementById("scoreDisplay");
+const scoreDisplay = document.getElementById("scoreDisplay");
 
-   - document.getElementById(): HTML ファイルから指定した id を持つ要素（例: id="wordDisplay"）を取得し、
-     JavaScript で操作できるように変数に格納しています。
+- document.getElementById(): HTML ファイルから指定した id を持つ要素（例: id="wordDisplay"）を取得し、
+  JavaScript で操作できるように変数に格納しています。
 
-     const words = [
+  const words = [
 
-     // ... 単語のリスト ...
+  // ... 単語のリスト ...
 
-     ];
+  ];
 
-   - words: タイピングゲームで使用する単語のリスト（配列）です。
+- words: タイピングゲームで使用する単語のリスト（配列）です。
 
-     let currentWordIndex = 0;
+  let currentWordIndex = 0;
 
-     let score = 0;
+  let score = 0;
 
-     let gameStarted = false;
+  let gameStarted = false;
 
 - currentWordIndex: 現在表示されている単語が、words 配列の何番目の単語であるかを記録する変数です。
 
