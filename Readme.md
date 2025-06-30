@@ -175,7 +175,6 @@ HTML 要素を操作し、ユーザーの入力に応じてゲームの状態を
 
    - document.getElementById(): HTML ファイルから指定した id を持つ要素（例: id="wordDisplay"）を取得し、
      JavaScript で操作できるように変数に格納しています。
-       <!-- end list -->
 
      const words = [
 
@@ -184,7 +183,6 @@ HTML 要素を操作し、ユーザーの入力に応じてゲームの状態を
      ];
 
    - words: タイピングゲームで使用する単語のリスト（配列）です。
-     <!-- end list -->
 
      let currentWordIndex = 0;
 
