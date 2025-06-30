@@ -164,9 +164,13 @@ HTML 要素を操作し、ユーザーの入力に応じてゲームの状態を
 1. 要素の取得と初期設定
 
    const wordDisplay = document.getElementById("wordDisplay");
+
    const textInput = document.getElementById("textInput");
+
    const startButton = document.getElementById("startButton");
+
    const feedbackDisplay = document.getElementById("feedback");
+
    const scoreDisplay = document.getElementById("scoreDisplay");
 
 - document.getElementById(): HTML ファイルから指定した id を持つ要素（例: id="wordDisplay"）を取得し、
